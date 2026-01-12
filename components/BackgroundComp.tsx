@@ -19,8 +19,9 @@ export default BackgroundComp;
 
 const styles= StyleSheet.create({
     container:{
-        backgroundColor:"#e3e3ec",
+        backgroundColor:"#ffffff",
         width: "100%",
-        height:"94%"
+        height:"94%",
+        paddingHorizontal:15
     }
 });
