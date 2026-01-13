@@ -27,13 +27,13 @@ const styles= StyleSheet.create({
     alignItems:"center",
     display:"flex",
     flexDirection: 'column',
-    gap:"30%",
+    gap:"20%",
     
   },
   logoStyle:{
     width:"80%",
     height:"10%",
-    marginTop:"70%"
+    marginTop:"50%"
   },
   bottomSect:{
     alignItems:"center",
@@ -48,7 +48,7 @@ const styles= StyleSheet.create({
   btnText:{
     fontSize:22,
     alignSelf:"center",
-    color:"#e3e3e3",
+    color:"#ffffff",
     alignItems:"center",
 
 

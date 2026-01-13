@@ -21,7 +21,7 @@ const styles= StyleSheet.create({
     container:{
         backgroundColor:"#ffffff",
         width: "100%",
-        height:"94%",
+        height:"100%",
         paddingHorizontal:15
     }
 });
