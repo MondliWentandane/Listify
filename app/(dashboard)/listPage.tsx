@@ -3,6 +3,7 @@ import TextComp from '@/components/TextComp';
 import React from 'react'
 import {Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import ItemComp from '@/components/ItemComp';
+import EmptyCartComp from '@/components/EmptyCartComp';
 
 
 
@@ -18,7 +19,7 @@ const listPage = () => {
         <Pressable><TextComp style={{color:"#000000"}}>Drinks</TextComp></Pressable>
         <Pressable><TextComp style={{color:"#000000"}}>Household</TextComp></Pressable>
       </View>
-      <ScrollView style={styles.thirdSect}>
+      {/*<ScrollView style={styles.thirdSect}>
         <ItemComp/>
         <ItemComp/>
         <ItemComp/>
@@ -29,7 +30,8 @@ const listPage = () => {
         <ItemComp/>
         <ItemComp/>
         <ItemComp/>
-      </ScrollView>
+      </ScrollView> */}
+      <EmptyCartComp/>
     </BackgroundComp>
   )
 }

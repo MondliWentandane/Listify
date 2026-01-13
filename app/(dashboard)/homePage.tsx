@@ -2,8 +2,8 @@ import BackgroundComp from '@/components/BackgroundComp';
 import TextComp from '@/components/TextComp';
 import React from 'react';
 import headingImg from '@/assets/images/headingImg.png';
-import emptyImg from "@/assets/images/emptyImg.jpg";
-import { Dimensions, Image, ImageBackground, StyleSheet, View } from 'react-native';
+import { Dimensions, ImageBackground, StyleSheet, View } from 'react-native';
+import EmptyCartComp from '@/components/EmptyCartComp';
 
 const homePage: React.FC = () => {
   return (
@@ -17,9 +17,10 @@ const homePage: React.FC = () => {
           <TextComp style={{ color:"#ffffff", paddingRight:"5%"}}>stay organized</TextComp>
         </View>
       </ImageBackground>
-      <View style={styles.suggSect}>
-        <Image source={emptyImg}/>
-        <TextComp style={{fontSize:29}}>Cart Empty...!!!</TextComp>
+      {/*Below is the option hat will appear whether the list is having items or not====*/}
+      <TextComp style={{fontSize:29, marginLeft:"4%", color:"#000000"}}>Suggested</TextComp>
+      <View>
+        
       </View>
     </BackgroundComp>
   )
