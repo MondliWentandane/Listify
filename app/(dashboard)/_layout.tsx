@@ -7,12 +7,17 @@ const DashboardLayout: React.FC = () => {
     <Tabs screenOptions={{headerShown:false}}>
         <Tabs.Screen name='homePage' options={{tabBarShowLabel:false, tabBarIcon:({focused})=>(
             <Image source={focused 
-                ? require('@/assets/Icons/homeBlueIcon.png')
-                : require('@/assets/Icons/homeBlackIcon.png')
-            }/>
+                ? require('@/assets/Icons/homeBlueIcon.png') : require('@/assets/Icons/homeBlackIcon.png')}/>
         )}}/>
-        <Tabs.Screen name='addPage' options={{tabBarShowLabel:false}}/>
-        <Tabs.Screen name='listPage' options={{tabBarShowLabel:false}}/>
+        <Tabs.Screen name='addPage' options={{tabBarShowLabel:false, tabBarIcon:({focused})=>(
+          <Image source={focused
+               ? require('@/assets/Icons/addBlueIcon.png'): require('@/assets/Icons/addBlackIcon.png')}/>
+        )}}/>
+        <Tabs.Screen name='listPage' options={{tabBarShowLabel:false, tabBarIcon:({focused})=>(
+          <Image source={focused
+               ? require('@/assets/Icons/listBlueIcon.png') :require('@/assets/Icons/listBlackIcon.png')
+          }/>
+        )}}/>
     </Tabs>
   )
 }

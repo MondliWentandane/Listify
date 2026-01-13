@@ -18,7 +18,7 @@ const index: React.FC = () => {
     </BackgroundComp>
   )
 }
-
+// WIFI@LCX2@20
 export default index;
 
 const styles= StyleSheet.create({
