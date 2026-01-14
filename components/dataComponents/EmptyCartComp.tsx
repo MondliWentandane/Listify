@@ -1,7 +1,7 @@
-import React from 'react';
 import emptyImg from "@/assets/images/emptyImg.jpg";
+import React from 'react';
 import { Image, StyleSheet, View } from 'react-native';
-import TextComp from './TextComp';
+import TextComp from '../TextComp';
 
 const EmptyCartComp = () => {
   return (

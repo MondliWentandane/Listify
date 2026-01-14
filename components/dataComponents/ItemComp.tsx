@@ -1,7 +1,7 @@
-import React from 'react'
-import { Image, Pressable, StyleSheet, View } from 'react-native'
-import TextComp from './TextComp'
 import appleImg from '@/assets/images/AppleItem.png';
+import React from 'react';
+import { Image, Pressable, StyleSheet, View } from 'react-native';
+import TextComp from '../TextComp';
 
 const ItemComp = () => {
   return (
